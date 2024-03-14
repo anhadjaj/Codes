@@ -172,8 +172,8 @@ int main()
     Metro.addEdge("Laxmi Nagar", "Nirman Vihar", 0.7);
     Metro.addEdge("Nirman Vihar", "Preet Vihar", 1.0);
     Metro.addEdge("Preet Vihar", "Karkarduma", 1.1);
-    Metro.addEdge("Karkarduma", "Anand Vihar ISBT", 1.7);
-    Metro.addEdge("Anand Vihar ISBT", "Kaushambi", 1.7);
+    Metro.addEdge("Karkarduma", "Anand Vihar", 1.7);
+    Metro.addEdge("Anand Vihar", "Kaushambi", 1.7);
     Metro.addEdge("Kaushambi", "Vaishali", 1.9);
 
 
@@ -260,6 +260,94 @@ int main()
     Metro.addEdge("Palam", "Dashrathpuri", 2.3);
     Metro.addEdge("Dashrathpuri", "Dabri Mor-Janakpuri South", 1.9);
     Metro.addEdge("Dabri Mor-Janakpuri South", "Janakpuri West", 1.2);
+
+    //PInk Line
+
+    Metro.addEdge("Majlis Park", "Azadpur", 5);
+Metro.addEdge("Azadpur", "Shalimar Bagh", 3);
+Metro.addEdge("Shalimar Bagh", "Netaji Subhash Place", 4);
+Metro.addEdge("Netaji Subhash Place", "Shakurpur", 3);
+Metro.addEdge("Shakurpur", "Punjabi Bagh West", 3);
+Metro.addEdge("Punjabi Bagh West", "ESI Basaidarapur", 4);
+Metro.addEdge("ESI Basaidarapur", "Rajouri Garden", 3);
+Metro.addEdge("Rajouri Garden", "Mayapuri", 3);
+Metro.addEdge("Mayapuri", "Naraina Vihar", 3);
+Metro.addEdge("Naraina Vihar", "Delhi Cantonment", 3);
+Metro.addEdge("Delhi Cantonment", "Durgabai Deshmukh South Campus", 3);
+Metro.addEdge("Durgabai Deshmukh South Campus", "Sir Vishweshwaraiah Moti Bagh", 3);
+Metro.addEdge("Sir Vishweshwaraiah Moti Bagh", "Bikaji Cama Place", 3);
+Metro.addEdge("Bikaji Cama Place", "Sarojini Nagar", 3);
+Metro.addEdge("Sarojini Nagar", "INA", 3);
+Metro.addEdge("INA", "South Extension", 3);
+Metro.addEdge("South Extension", "Lajpat Nagar", 3);
+Metro.addEdge("Lajpat Nagar", "Vinobapuri", 3);
+Metro.addEdge("Vinobapuri", "Ashram", 3);
+Metro.addEdge("Ashram", "Hazrat Nizamuddin", 3);
+Metro.addEdge("Hazrat Nizamuddin", "Mayur Vihar Phase-1", 3);
+Metro.addEdge("Mayur Vihar Phase-1", "Mayur Vihar Pocket 1", 3);
+Metro.addEdge("Mayur Vihar Pocket 1", "Trilokpuri Sanjay Lake", 3);
+Metro.addEdge("Trilokpuri Sanjay Lake", "East Vinod Nagar", 3);
+Metro.addEdge("East Vinod Nagar", "Mandawali-West Vinod Nagar", 3);
+Metro.addEdge("Mandawali-West Vinod Nagar", "IP Extension", 3);
+Metro.addEdge("IP Extension", "Anand Vihar", 3);
+Metro.addEdge("Anand Vihar", "Karkarduma", 3);
+Metro.addEdge("Karkarduma", "Karkarduma Court", 3);
+Metro.addEdge("Karkarduma Court", "Krishna Nagar", 3);
+Metro.addEdge("Krishna Nagar", "East Azad Nagar", 3);
+Metro.addEdge("East Azad Nagar", "Welcome", 3);
+Metro.addEdge("Welcome", "Maujpur-Babarpur", 3);
+Metro.addEdge("Maujpur-Babarpur", "Gokulpuri", 3);
+Metro.addEdge("Gokulpuri", "Johri Enclave", 3);
+Metro.addEdge("Johri Enclave", "Shiv Nagar", 3);
+
+// grey line
+Metro.addEdge("Dwarka", "Nangli", 3.0);
+Metro.addEdge("Nangli", "Najafgarh", 2.5);
+Metro.addEdge("Najafgarh", "Dhansa Bus Stand", 2.0);
+
+//orange line
+Metro.addEdge("New Delhi", "Shivaji Stadium", 2.0);
+Metro.addEdge("Shivaji Stadium", "Dhaula Kuan", 4.5);
+Metro.addEdge("Dhaula Kuan", "Delhi Aerocity", 4.75);
+Metro.addEdge("Delhi Aerocity", "IGI Airport", 3.0);
+Metro.addEdge("IGI Airport", "Dwarka Sector 21", 3.0);
+
+//Violet line
+Metro.addEdge("Kashmere Gate", "Lal Qila", 3.0);
+Metro.addEdge("Lal Qila", "Jama Masjid", 2.0);
+Metro.addEdge("Jama Masjid", "Delhi Gate", 2.0);
+Metro.addEdge("Delhi Gate", "ITO", 2.5);
+Metro.addEdge("ITO", "Mandi House", 3.0);
+Metro.addEdge("Mandi House", "Janpath", 2.5);
+Metro.addEdge("Janpath", "Central Secretariat", 1.5);
+Metro.addEdge("Central Secretariat", "Khan Market", 3.5);
+Metro.addEdge("Khan Market", "Jawaharlal Nehru Stadium", 3.0);
+Metro.addEdge("Jawaharlal Nehru Stadium", "Jangpura", 2.0);
+Metro.addEdge("Jangpura", "Lajpat Nagar", 3.0);
+Metro.addEdge("Lajpat Nagar", "Moolchand", 2.5);
+Metro.addEdge("Moolchand", "Kailash Colony", 2.0);
+Metro.addEdge("Kailash Colony", "Nehru Place", 2.5);
+Metro.addEdge("Nehru Place", "Kalkaji Mandir", 2.0);
+Metro.addEdge("Kalkaji Mandir", "Govind Puri", 2.0);
+Metro.addEdge("Govind Puri", "Harkesh Nagar Okhla", 2.5);
+Metro.addEdge("Harkesh Nagar Okhla", "Jasola Apollo", 2.5);
+Metro.addEdge("Jasola Apollo", "Sarita Vihar", 2.5);
+Metro.addEdge("Sarita Vihar", "Mohan Estate", 3.0);
+Metro.addEdge("Mohan Estate", "Tughlakabad", 3.5);
+Metro.addEdge("Tughlakabad", "Badarpur Border", 3.5);
+Metro.addEdge("Badarpur Border", "Sarai", 2.0);
+Metro.addEdge("Sarai", "NHPC Chowk", 3.0);
+Metro.addEdge("NHPC Chowk", "Mewala Maharajpur", 3.5);
+Metro.addEdge("Mewala Maharajpur", "Sector 28", 2.0);
+Metro.addEdge("Sector 28", "Badkhal Mor", 2.0);
+Metro.addEdge("Badkhal Mor", "Old Faridabad", 2.5);
+Metro.addEdge("Old Faridabad", "Neelam Chowk Ajronda", 3.0);
+Metro.addEdge("Neelam Chowk Ajronda", "Bata Chowk", 2.0);
+Metro.addEdge("Bata Chowk", "Escorts Mujesar", 2.0);
+Metro.addEdge("Escorts Mujesar", "Sant Surdas (Fermi)", 2.5);
+Metro.addEdge("Sant Surdas (Fermi)", "Raja Nahar Singh", 3.0);
+
+
 
 
 

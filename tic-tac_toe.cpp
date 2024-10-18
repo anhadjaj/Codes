@@ -13,6 +13,7 @@ void displayBoard(char arr[3][3]) {
             cout << endl;
         }
     }
+    
     cout << endl;
     cout << endl;
 }
